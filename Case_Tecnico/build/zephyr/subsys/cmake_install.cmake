@@ -34,117 +34,117 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/bin/xtensa-dc233c_zephyr-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/canbus/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/canbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/debug/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/debug/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/fb/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/fb/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/fs/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/fs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/ipc/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/ipc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/logging/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/logging/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/mem_mgmt/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/mem_mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/mgmt/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/mgmt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/modbus/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/modbus/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/pm/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/pm/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/pmci/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/pmci/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/portability/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/portability/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/random/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/random/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/rtio/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/rtio/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/sd/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/sd/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/stats/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/stats/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/storage/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/storage/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/task_wdt/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/task_wdt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/testsuite/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/testsuite/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/tracing/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/tracing/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/usb/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/usb/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/subsys/install_local_manifest.txt"
+  file(WRITE "C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/subsys/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

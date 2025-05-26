@@ -8,8 +8,7 @@ K_MSGQ_DEFINE(M_S_channel_communication, sizeof(float), 11, 4);
 /*Semáforos*/ 
 K_SEM_DEFINE(sem_test_connection, 0, 1);
 K_SEM_DEFINE(sem_communication, 0, 1);
-K_SEM_DEFINE(sem_missile_init, 0, 1);
-K_SEM_DEFINE(sem_communication_init, 0, 1);
+K_SEM_DEFINE(sem_missile_init, 0, 2);
 
 bool self_destruction = false;
 bool connection_established = false;

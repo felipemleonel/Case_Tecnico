@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "C:/Users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/bin/xtensa-dc233c_zephyr-elf-gcc.exe")
+set(CMAKE_C_COMPILER "C:/Users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "12.2.0")
@@ -23,11 +23,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/bin/xtensa-dc233c_zephyr-elf-ar.exe")
-set(CMAKE_C_COMPILER_AR "C:/Users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/bin/xtensa-dc233c_zephyr-elf-gcc-ar.exe")
-set(CMAKE_RANLIB "C:/Users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/bin/xtensa-dc233c_zephyr-elf-ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "C:/Users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/bin/xtensa-dc233c_zephyr-elf-gcc-ranlib.exe")
-set(CMAKE_LINKER "c:/users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/xtensa-dc233c_zephyr-elf/bin/ld.bfd.exe")
+set(CMAKE_AR "C:/Users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar.exe")
+set(CMAKE_C_COMPILER_AR "C:/Users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "C:/Users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "C:/Users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "c:/users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/arm-zephyr-eabi/bin/ld.bfd.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "")

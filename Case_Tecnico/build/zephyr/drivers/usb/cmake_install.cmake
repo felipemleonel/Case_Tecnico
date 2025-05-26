@@ -34,17 +34,17 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/55319/zephyr-sdk-0.17.1/xtensa-dc233c_zephyr-elf/bin/xtensa-dc233c_zephyr-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/55319/zephyr-sdk-0.17.1/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/drivers/usb/common/cmake_install.cmake")
+  include("C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/drivers/usb/common/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/build/zephyr/drivers/usb/install_local_manifest.txt"
+  file(WRITE "C:/Users/55319/zephyrproject/Case_Tecnico/build/zephyr/drivers/usb/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

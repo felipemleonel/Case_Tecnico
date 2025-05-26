@@ -7,10 +7,6 @@
  */
 
 __weak ALIAS_OF(handler_no_syscall)
-uintptr_t z_mrsh_xtensa_user_fault(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3,
-         uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, void *ssf);
-
-__weak ALIAS_OF(handler_no_syscall)
 uintptr_t z_mrsh_zephyr_read_stdin(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3,
          uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, void *ssf);
 
@@ -578,7 +574,6 @@ extern uintptr_t z_mrsh_k_object_access_grant(uintptr_t arg1, uintptr_t arg2, ui
 extern uintptr_t z_mrsh_k_object_alloc(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4, uintptr_t arg5, uintptr_t arg6, void *ssf);
 
 const _k_syscall_handler_t _k_syscall_table[K_SYSCALL_LIMIT] = {
-	[K_SYSCALL_XTENSA_USER_FAULT] = z_mrsh_xtensa_user_fault,
 	[K_SYSCALL_ZEPHYR_READ_STDIN] = z_mrsh_zephyr_read_stdin,
 	[K_SYSCALL_ZEPHYR_WRITE_STDOUT] = z_mrsh_zephyr_write_stdout,
 	[K_SYSCALL_ZEPHYR_FPUTC] = z_mrsh_zephyr_fputc,

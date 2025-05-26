@@ -6,13 +6,12 @@
 
 void launch_system(void *p1, void *p2, void *p3) {
     printk("Missil lancado!\n");
-    k_sem_give(&sem_missile_init);
+    for (int i = 0; i<2; i++) k_sem_give(&sem_missile_init);
     k_sleep(K_MSEC(3500));
     
     const char conn[] = "conn";
     char response[4];
 
-    k_sem_give(&sem_communication_init);
     /*Teste de conexão*/
     for (int i = 0; i < 6; i++) {
         k_sem_take(&sem_test_connection, K_FOREVER);

@@ -1,18 +1,18 @@
 cmake:
   application:
-    configuration-dir: 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1'
-    source-dir: 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1'
+    configuration-dir: 'C:/Users/55319/zephyrproject/Case_Tecnico/Q3'
+    source-dir: 'C:/Users/55319/zephyrproject/Case_Tecnico/Q3'
   board:
-    name: 'qemu_xtensa'
+    name: 'qemu_cortex_m3'
     path:
-     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/xtensa'
-    qualifiers: 'dc233c'
+     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/cortex_m3'
+    qualifiers: 'ti_lm3s6965'
     revision: ''
   devicetree:
     bindings-dirs:
      - 'C:/Users/55319/zephyrproject/zephyr/dts/bindings'
     files:
-     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/xtensa/qemu_xtensa_dc233c.dts'
+     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/cortex_m3/qemu_cortex_m3.dts'
     include-dirs:
      - 'C:/Users/55319/zephyrproject/modules/hal/ambiq/dts'
      - 'C:/Users/55319/zephyrproject/modules/hal/atmel/include'
@@ -41,10 +41,10 @@ cmake:
      - 'C:/Users/55319/zephyrproject/zephyr/dts'
   kconfig:
     files:
-     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/xtensa/qemu_xtensa_dc233c_defconfig'
-     - 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1/prj.conf'
+     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/cortex_m3/qemu_cortex_m3_defconfig'
+     - 'C:/Users/55319/zephyrproject/Case_Tecnico/Q3/prj.conf'
     user-files:
-     - 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1/prj.conf'
+     - 'C:/Users/55319/zephyrproject/Case_Tecnico/Q3/prj.conf'
   toolchain:
     name: 'zephyr'
     path: 'C:/Users/55319/zephyr-sdk-0.17.1'
@@ -53,6 +53,6 @@ cmake:
     zephyr-base: 'C:/Users/55319/zephyrproject/zephyr'
 version: '0.1.0'
 west:
-  command: 'C:\Users\55319\zephyrproject\.venv\Scripts\west build -b qemu_xtensa/dc233c Q1 --pristine'
+  command: 'C:\Users\55319\zephyrproject\.venv\Scripts\west build -b qemu_cortex_m3 Q3 --pristine'
   topdir: 'C:\Users\55319\zephyrproject'
   version: '1.4.0'

@@ -1,5 +1,5 @@
 west:
-  command: C:\Users\55319\zephyrproject\.venv\Scripts\west build -b qemu_xtensa/dc233c
-    Q1 --pristine
+  command: C:\Users\55319\zephyrproject\.venv\Scripts\west build -b qemu_cortex_m3
+    Q3 --pristine
   topdir: C:\Users\55319\zephyrproject
   version: 1.4.0

@@ -1,14 +1,6 @@
 [
     [
         [
-            "void xtensa_user_fault",
-            "unsigned int reason"
-        ],
-        "arch.h",
-        true
-    ],
-    [
-        [
             "int zephyr_read_stdin",
             "char *buf, int nbytes"
         ],
@@ -1189,6 +1181,14 @@
             "unsigned int reason"
         ],
         "error.h",
+        false
+    ],
+    [
+        [
+            "void xtensa_user_fault",
+            "unsigned int reason"
+        ],
+        "arch.h",
         false
     ],
     [
