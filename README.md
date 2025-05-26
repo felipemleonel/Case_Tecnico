@@ -1,6 +1,6 @@
 # Case Técnico 
 
-Este repositório apresenta a resolução das questões propostas utilizando o **Zephyr RTOS**. A validação foi realizada por meio de simulação com o **QEMU** configurado para emular um **ARM Cortex-M3**.
+Este repositório apresenta a resolução das questões propostas utilizando o **Zephyr RTOS**. A validação foi realizada por meio de simulação com o **QEMU** configurado para emulação do **ARM Cortex-M3**.
 
 ## 📁 Estrutura do Projeto
 
