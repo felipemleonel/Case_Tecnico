@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "C:/Users/55319/zephyrproject/zephyr/boards/qemu/xtensa/Kconfig.qemu_xtensa"

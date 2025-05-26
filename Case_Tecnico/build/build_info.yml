@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1'
+    source-dir: 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1'
+  board:
+    name: 'qemu_xtensa'
+    path:
+     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/xtensa'
+    qualifiers: 'dc233c'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/bindings'
+    files:
+     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/xtensa/qemu_xtensa_dc233c.dts'
+    include-dirs:
+     - 'C:/Users/55319/zephyrproject/modules/hal/ambiq/dts'
+     - 'C:/Users/55319/zephyrproject/modules/hal/atmel/include'
+     - 'C:/Users/55319/zephyrproject/modules/hal/bouffalolab/include'
+     - 'C:/Users/55319/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - 'C:/Users/55319/zephyrproject/modules/hal/gigadevice/include'
+     - 'C:/Users/55319/zephyrproject/modules/hal/microchip/include'
+     - 'C:/Users/55319/zephyrproject/modules/hal/microchip/dts'
+     - 'C:/Users/55319/zephyrproject/modules/hal/nuvoton/dts'
+     - 'C:/Users/55319/zephyrproject/modules/hal/nxp/dts'
+     - 'C:/Users/55319/zephyrproject/modules/hal/stm32/dts'
+     - 'C:/Users/55319/zephyrproject/modules/hal/ti/dts'
+     - 'C:/Users/55319/zephyrproject/zephyr/include'
+     - 'C:/Users/55319/zephyrproject/zephyr/include/zephyr'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/common'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/vendor'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/rx'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/x86'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/xtensa'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/sparc'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/riscv'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/posix'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/arm64'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/arm'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts/arc'
+     - 'C:/Users/55319/zephyrproject/zephyr/dts'
+  kconfig:
+    files:
+     - 'C:/Users/55319/zephyrproject/zephyr/boards/qemu/xtensa/qemu_xtensa_dc233c_defconfig'
+     - 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1/prj.conf'
+    user-files:
+     - 'C:/Users/55319/zephyrproject/zephyr/Case_Tecnico/Q1/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/Users/55319/zephyr-sdk-0.17.1'
+  zephyr:
+    version: '4.1.99'
+    zephyr-base: 'C:/Users/55319/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: 'C:\Users\55319\zephyrproject\.venv\Scripts\west build -b qemu_xtensa/dc233c Q1 --pristine'
+  topdir: 'C:\Users\55319\zephyrproject'
+  version: '1.4.0'
